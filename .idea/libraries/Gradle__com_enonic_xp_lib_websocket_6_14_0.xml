@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.enonic.xp:lib-websocket:6.14.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.enonic.xp/lib-websocket/6.14.0/73e5678fcd38c3e1e1a286db082533a8f38d349b/lib-websocket-6.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.enonic.xp/lib-websocket/6.14.0/f3a71026ad494bae6a11c62eee8017f2c0b3d69/lib-websocket-6.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

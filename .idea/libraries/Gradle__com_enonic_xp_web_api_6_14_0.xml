@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.enonic.xp:web-api:6.14.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.enonic.xp/web-api/6.14.0/ea28dba4c523411eb6e2e5b54053cd5f624e793f/web-api-6.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.enonic.xp/web-api/6.14.0/e9099c8a3d8763d95d2824f217e80970f3ceb500/web-api-6.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

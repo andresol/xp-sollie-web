@@ -1,2 +1,1 @@
-# xp-sollie-web
-Enonic XP sollies homepage.
+## SOLLIES web page.

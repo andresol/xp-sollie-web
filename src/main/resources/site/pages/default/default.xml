@@ -1,0 +1,12 @@
+<page>
+    <display-name>Standard sidemal</display-name>
+    <config>
+        <input name="disableFooter" type="Checkbox">
+            <label>Ignorer footer valgt i site config</label>
+            <occurrences maximum="1" minimum="1"/>
+        </input>
+    </config>
+    <regions>
+        <region name="main"/>
+    </regions>
+</page>

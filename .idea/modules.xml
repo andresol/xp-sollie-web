@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sollieweb.iml" filepath="$PROJECT_DIR$/.idea/modules/sollieweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sollieweb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sollieweb_main.iml" group="sollieweb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sollieweb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sollieweb_test.iml" group="sollieweb" />
+    </modules>
+  </component>
+</project>

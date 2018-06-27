@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.enonic.xp:lib-value:6.14.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.enonic.xp/lib-value/6.14.0/d56f96d29a34d67bee7e61173b965589c1404c71/lib-value-6.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.enonic.xp/lib-value/6.14.0/4263b381e755d8f1461de0adee9798c6b4871c48/lib-value-6.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
