@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="${language!'no'}">
 <head>
-  <title>Sollies web</title>
+  <title>Sollies admin web</title>
   <meta charset="utf-8">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -51,15 +51,18 @@
       </div>
       <div class="col-lg-8 mx-auto">
         <p class="text-faded mb-5">A smart house with it own homepage.</p>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="">Sign in and control the house</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="">Log inn and control the house</a>
       </div>
     </div>
   </div>
 </header>
 
 <!-- Begin page content -->
-<main role="main" data-portal-component-type="region" data-portal-region="main">
-  [#nested /]
+<main role="main" class="container">
+  <h1 class="mt-5">About the house</h1>
+  <section class="main-container" data-portal-component-type="region" data-portal-region="main">
+          [#nested /]
+  </section>
 </main>
 
 <footer class="footer">

@@ -1,11 +1,7 @@
 import freemarker from '/lib/tineikt/freemarker';
 import portalLib from '/lib/xp/portal';
 import contentLib from '/lib/xp/content';
-
-const getMenu = (config) => {
-    const menuRoot = config.conMenuRoot ? contentLib.get({ key: config.conMenuRoot }) : portalLib.getSite();
-    return menu.getSubMenus(menuRoot, 1);
-};
+import menu from '/lib/enonic/menu';
 
 
 // Handle the GET request
@@ -14,12 +10,13 @@ exports.get = () => {
     const site = portalLib.getSite();
     const config = portalLib.getSiteConfig() || {};
     const content = portalLib.getContent();
-      const isFragment = content.type === 'portal:fragment';
+    const isFragment = content.type === 'portal:fragment';
     const isMenuAtRoot = (content._id === config.conMenuRoot) || false;
 
     const model = {
         isFragment,
         isMenuAtRoot,
+				menuItems	: menu.getMenuTree(0),
         regions: isFragment ? null : content.page.regions.main,
         rootPath: site._path
     };

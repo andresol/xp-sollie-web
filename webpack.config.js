@@ -17,7 +17,8 @@ const config = {
 	mode: isProduction ? 'production' : 'development',
 	entry: {
 		main: ['babel-polyfill', './src/site/js/main.js'],
-		react: './src/site/react/index.js'
+		react: './src/site/react/index.js',
+		vendors: ['jquery', 'scrollreveal', 'magnific-popup', 'jquery.easing']
 	},
 	output: {
 		filename: 'js/[name].js',

@@ -1,0 +1,18 @@
+<part>
+  <display-name>Primary-Article</display-name>
+  <config>
+    <field-set name="title">
+      <label>Article</label>
+      <items>
+        <input type="TextLine" name="title">
+          <label>Title</label>
+          <occurrences minimum="1" maximum="1"/>
+        </input>
+        <input type="TextLine" name="content">
+          <label>Describe the cool stuff</label>
+          <occurrences minimum="1" maximum="1"/>
+        </input>
+      </items>
+    </field-set>
+  </config>
+</part>

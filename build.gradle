@@ -49,7 +49,7 @@ dependencies {
 	include 'com.enonic.lib:lib-cache:1.0.0'
 	include "com.enonic.xp:lib-i18n:${xpVersion}"
 	include "com.enonic.xp:lib-node:${xpVersion}"
-	include "com.enonic.lib:menu:1.3.0"
+	include "com.enonic.lib:menu:2.0.1"
     include "com.enonic.xp:lib-context:${xpVersion}"
     include "com.enonic.xp:lib-io:${xpVersion}"
     include "com.enonic.xp:lib-repo:${xpVersion}"
